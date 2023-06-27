@@ -1,0 +1,47 @@
+{
+  "Groups": [
+    {
+      "Name": "main",
+      "DisplayName": "Configuration",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Please Select a Style",
+          "Description": [
+            "PLEASE SELECT A STYLE"
+          ],
+          "Type": "BaseEnum",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "birthday"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "BaseEnum": [
+      {
+        "DisplayName": "Birthday Nerd",
+        "Description": [
+          "Birthday Outfit Colors"
+        ],
+        "Value": "birthday"
+      },
+      {
+        "DisplayName": "Nerd",
+        "Description": [
+          "Black Colored Accesories"
+        ],
+        "Value": "nerd"
+      },
+      {
+        "DisplayName": "Kirby Nerd",
+        "Description": [
+          "Gives Sonic Commentator Waddle Dee's bowtie and glasses, thanks sails"
+        ],
+        "Value": "kirbynerd"
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
